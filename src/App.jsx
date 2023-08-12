@@ -7,7 +7,7 @@ function App() {
   const [todos, setTodos] = useState([{
     id : new Date().getTime(),
     text : 'Complete online JavaScript course',
-    isChecked : false,
+    isChecked : true,
   },
   {
     id : new Date().getTime()-1,
